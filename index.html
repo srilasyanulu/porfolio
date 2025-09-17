@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)file:///C:/Users/HP%20PC/Downloads/porfolio1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Naga Sai Sri Lasya Nulu — Portfolio</title>
+  <link href="./srilasya_portfolio_files/css2" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #e5e7eb; /* gray background */
+      --card: #ffffff;
+      --muted: #6b7280;
+      --accent: #6ee7b7; /* soft mint */
+      --accent-2: #93c5fd; /* soft blue */
+      --accent-ink: #0f172a;
+      --radius: 14px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: var(--bg);
+      color:var(--accent-ink);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+      padding:40px;
+    }
+    .wrap{max-width:980px;margin:0 auto;}
+    header{display:flex;gap:20px;align-items:center;margin-bottom:24px}
+    .avatar{
+      width:110px;height:110px;border-radius:18px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px;box-shadow:0 6px 18px rgba(15,23,42,0.06)
+    }
+    h1{font-size:24px;margin:0 0 4px}
+    .sub{color:var(--muted);font-size:14px}
+    .contact{margin-left:auto;text-align:right}
+    .card{background:var(--card);border-radius:var(--radius);padding:22px;box-shadow:0 8px 24px rgba(15,23,42,0.04);margin-bottom:18px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+    .section-title{font-weight:600;margin-bottom:12px}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(99,102,241,0.08);color:#4f46e5;font-weight:600;font-size:13px}
+    ul{padding-left:18px;margin:0}
+    .skill-list{display:flex;flex-wrap:wrap;gap:10px}
+    .skill{background:#f1f5f9;padding:8px 10px;border-radius:999px;font-size:13px;color:var(--accent-ink)}
+    .edu-item{margin-bottom:12px}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+    /* responsive */
+    @media (max-width:880px){
+      .grid{grid-template-columns:1fr;}
+      .contact{margin-left:0;text-align:left;margin-top:12px}
+      header{flex-wrap:wrap}
+    }
+
+    /* subtle utilities */
+    .label{font-size:12px;color:var(--muted);display:block;margin-bottom:6px}
+    .big{font-size:18px;font-weight:600}
+    .muted{color:var(--muted)}
+    .cta{display:inline-block;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:white;text-decoration:none;font-weight:600}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">LS</div>
+      <div>
+        <h1>Naga Sai Sri Lasya Nulu</h1>
+        <div class="sub">B.Sc. Computer Science — Frontend &amp; MERN enthusiast</div>
+        <div style="margin-top:8px"><span class="pill">Student (2023–2026)</span></div>
+      </div>
+
+      <div class="contact">
+        <div class="muted">Phone</div>
+        <div class="big">+91 9849789290</div>
+        <div class="muted" style="margin-top:8px">Email</div>
+        <div>lasyanululasyanulu@gmail.com</div>
+        <div class="muted" style="margin-top:8px">Location</div>
+        <div>2-1-71/3c, Mainroad, Amalapuram</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card">
+          <div class="section-title">About</div>
+          <p class="muted">I'm a B.Sc. Computer Science student at Aditya Degree College (expected March 2026). Currently learning web development through a MERN stack internship and building frontend + backend for web applications. I enjoy building clean UI and learning modern web stacks.</p>
+        </section>
+
+        <section class="card">
+          <div class="section-title">Experience</div>
+          <div class="edu-item">
+            <div style="font-weight:600">MERN Stack Internship — Adhoc Network</div>
+            <div class="muted">Present</div>
+            <div class="muted" style="margin-top:8px">Working on frontend and backend features, building responsive UI and API integration as part of internship projects.</div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-title">Projects (examples)</div>
+          <ul>
+            <li><strong>Portfolio Website</strong> — This single-page responsive site (HTML/CSS) to showcase profile and skills.</li>
+            <li><strong>To-do / Notes App</strong> — React frontend with local storage and simple CRUD.</li>
+            <li><strong>Simple REST API</strong> — Node/Express backend to store user data in JSON or MongoDB.</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <div class="section-title">Certifications</div>
+          <ul>
+            <li>DigiSaksham program — Completed</li>
+            <li>Python Essentials — CISCO Network Academy — Completed</li>
+          </ul>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <div class="section-title">Skills</div>
+          <div class="skill-list">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">Basic Java</span>
+            <span class="skill">C</span>
+            <span class="skill">Python (basics)</span>
+            <span class="skill">Frontend Development</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Education</div>
+          <div class="edu-item">
+            <div style="font-weight:600">Aditya Degree College, Amalapuram</div>
+            <div class="muted">B.Sc. Computer Science — July 2023 — expected March 2026</div>
+            <div style="margin-top:6px">CGPA: 7.5 / 10.0</div>
+          </div>
+
+          <div class="edu-item">
+            <div style="font-weight:600">Aditya Junior College</div>
+            <div class="muted">Class XII — CGPA: 51.3</div>
+          </div>
+
+          <div class="edu-item">
+            <div style="font-weight:600">Sir C V Raman School</div>
+            <div class="muted">Class X — CGPA: 10.0 / 10.0</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Contact</div>
+          <p class="muted">Feel free to reach out for internship opportunities, collaboration, or just to say hi.</p>
+          <a class="cta" href="mailto:lasyanululasyanulu@gmail.com">Email me</a>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      Built with care • Gray background palette • Tell me if you'd like a different theme, accents, or a downloadable PDF version.
+    </footer>
+  </div>
+
+</body></html>
